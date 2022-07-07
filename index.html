@@ -1,0 +1,201 @@
+<!--! ТЕОРИЯ -->
+
+<!--? ставим !-> Emmet-> Tab или Enter -> <!DOCTYPE html> -->
+<!-- ? body-> Emmet-> Tab-> -->
+<!-- комментарии -->
+<!--? Атрибуты: id class title -->
+<!-- title="Ой..." -- Всплывающий текст при наведении курсора -->
+<!-- class -- не уникальный их может быть на странице сколько угодно  -->
+<!-- id --  уникальный атрибут, второго такого быть не может на странице -->
+<!-- <div id="id-name" ; class="class-name" ; title="Ой..."> -->
+<!-- Далее будет перенос текста по словам, это возможно благодаря настройке перенос по словам (Word Wrap в меню View (Вид), Alt+Z  -->
+
+<!--? Lorem10, где 10 количество произвольных слов слов -->
+
+<!--? <div>...</div> -->
+<!-- не имеет определенного предназначения, поэтому используется для выделения блоков, когда другой тег подобрать нет возможности или точнее используем его всегда кроме тех случаев когда подходит другой тег -->
+<!--? div.class-name или .class-name-> Emmet-> Tab-> <div class="class-name"></div> -->
+<!-- <div class="class-name"></div> -->
+
+<div id="top"></div>
+<!--TODO ПРАКТИКА -->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Мой Первый Сайт</title>
+</head>
+
+<body>
+   <header>
+      <div>
+         <a href=""> Меню Навигации </a>
+      </div>
+      <nav>
+         <ul>
+            <li>
+               <a href=""> Вольха </a>
+            </li>
+            <li>
+               <a href=""> Лён </a>
+            </li>
+            <li>
+               <a href=""> Эльфы </a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <!-- БЛОЧНЫЕ  -->
+      <!-- ul>li*10 чтобы быстро ввести 10 пунктов li -->
+      <ul>
+         <!-- a href="#p1", где # это якорная ссылка -->
+         <h1><a href="#p1">ЯКОРНАЯ ССЫЛКА с # Hello отступ</a> </h1> <!-- Встроенные стили, отступы -->
+         <!-- href="#p1" когда перейдешь по ссылки в браузере в адресе появится # и скопировав адрес и вставив в адресную строку сразу откроется на нужном месте страница  -->
+         <h2>No no отступ</h2>
+         <li>
+            <p>Love you! отступ</p><!-- Абзац, отступы между абзацами -->
+            <p>Tell me! отступ</p>
+         </li>
+         <li>
+            <div class="text">
+               Thank you!!! <b>нет отступа</b>
+               <!-- Без Встроенных стилей, без отступов между блоками -->
+            </div>
+         </li>
+         <li>
+            <div>Hello <b>нет отступа</b></div>
+         </li>
+
+      </ul>
+      <!-- СТРОЧНЫЕ -->
+      <span> ABC <mark>в одну строчку</mark> </span>
+      <span> CDE </span>
+      <!-- Картинка -->
+      <br>
+      <img src="img/Вольха и Лён.png" width="250" height="250" alt="Ой"> <span>Вольха и Лён</span>
+      </br>
+      <br> <mark>Вольха и Лён</mark> </br>
+      <br>
+      <a href="https://mythological-creations.fandom.com/ru/wiki/Эльфы">Эльфы</a>
+      </br>
+      <br>
+      Значение <a href="https://ru.wikipedia.org/wiki/Эльфы">Эльфы.</a> Значение можно найти в Википедии
+      </br>
+      <br>
+      <!-- target="_blank" откроет на новом окне -->
+      <a target="_blank" href="https://mythological-creations.fandom.com/ru/wiki/Эльфы">Кто Они?</a>
+      </br>
+      <br>
+      <a href="https://mythological-creations.fandom.com/ru/wiki/Эльфы">Эльфы</a>
+      </br>
+      <p>Tell me! отступ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ullam inventore, velit voluptate
+         aut
+         quae odio autem adipisci temporibus deleniti libero in aperiam accusamus totam beatae voluptatum magnam,
+         ratione
+         pariatur itaque architecto labore voluptates! Expedita, quas. Voluptatum omnis obcaecati repellendus temporibus
+         perspiciatis molestiae commodi, dolorum aspernatur iure quae quis, possimus dolore minima quas reprehenderit
+         quia
+         minus ut sed porro qui, modi accusantium corporis. <br> Eum magni repudiandae </br>illo molestias, neque
+         tempore
+         nihil sint
+         laudantium soluta corrupti nostrum temporibus ipsa. Sed quo eum, vel ut necessitatibus sapiente illum atque
+         ipsum
+         pariatur delectus, a saepe quibusdam, mollitia laboriosam praesentium dicta aliquid. Deleniti fugit in cumque
+         nemo
+         modi consequatur numquam beatae a, deserunt quisquam nostrum. Omnis necessitatibus saepe earum impedit
+         inventore
+         quos maxime ratione excepturi perferendis dicta ipsa, harum ullam molestiae modi quaerat tempora ipsam enim
+         beatae
+         numquam sint! Dolore quae obcaecati, rem minima libero aspernatur eaque, voluptas velit eum maxime esse harum
+         aut.
+      <p>Tell me! отступ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ullam inventore, velit voluptate
+         aut
+         quae odio autem adipisci temporibus deleniti libero in aperiam accusamus totam beatae voluptatum magnam,
+         ratione
+         pariatur itaque architecto labore voluptates! Expedita, quas. Voluptatum omnis obcaecati repellendus temporibus
+         perspiciatis molestiae commodi, dolorum aspernatur iure quae quis, possimus dolore minima quas reprehenderit
+         quia
+         minus ut sed porro qui, modi accusantium corporis. Eum magni repudiandae illo molestias, neque tempore nihil
+         sint
+         laudantium soluta corrupti nostrum temporibus ipsa. Sed quo eum, vel ut necessitatibus sapiente illum atque
+         ipsum
+         pariatur delectus, a saepe quibusdam, mollitia laboriosam praesentium dicta aliquid. Deleniti fugit in cumque
+         nemo
+         modi consequatur numquam beatae a, deserunt quisquam nostrum. Omnis necessitatibus saepe earum impedit
+         inventore
+         quos maxime ratione excepturi perferendis dicta ipsa, harum ullam molestiae modi quaerat tempora ipsam enim
+         beatae
+         numquam sint! Dolore quae obcaecati, rem minima libero aspernatur eaque, voluptas velit eum maxime esse harum
+         aut.
+      <p>Tell me! отступ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ullam inventore, velit voluptate
+         aut
+         quae odio autem adipisci temporibus deleniti libero in aperiam accusamus totam beatae voluptatum magnam,
+         ratione
+         pariatur itaque architecto labore voluptates! Expedita, quas. Voluptatum omnis obcaecati repellendus temporibus
+         perspiciatis molestiae commodi, dolorum aspernatur iure quae quis, possimus dolore minima quas reprehenderit
+         quia
+         minus ut sed porro qui, modi accusantium corporis. Eum magni repudiandae illo molestias, neque tempore nihil
+         sint
+         laudantium soluta corrupti nostrum temporibus ipsa. Sed quo eum, vel ut necessitatibus sapiente illum atque
+         ipsum
+         pariatur delectus, a saepe quibusdam, mollitia laboriosam praesentium dicta aliquid. Deleniti fugit in cumque
+         nemo
+         modi consequatur numquam beatae a, deserunt quisquam nostrum. Omnis necessitatibus saepe earum impedit
+         inventore
+         quos maxime ratione excepturi perferendis dicta ipsa, harum ullam molestiae modi quaerat tempora ipsam enim
+         beatae
+         numquam sint! Dolore quae obcaecati, rem minima libero aspernatur eaque, voluptas velit eum maxime esse harum
+         aut.
+      <p>Tell me! отступ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ullam inventore, velit voluptate
+         aut
+         quae odio autem adipisci temporibus deleniti libero in aperiam accusamus totam beatae voluptatum magnam,
+         ratione
+         pariatur itaque architecto labore voluptates! Expedita, quas. Voluptatum omnis obcaecati repellendus temporibus
+         perspiciatis molestiae commodi, dolorum aspernatur iure quae quis, possimus dolore minima quas reprehenderit
+         quia
+         minus ut sed porro qui, modi accusantium corporis. Eum magni repudiandae illo molestias, neque tempore nihil
+         sint
+         laudantium soluta corrupti nostrum temporibus ipsa. Sed quo eum, vel ut necessitatibus sapiente illum atque
+         ipsum
+         pariatur delectus, a saepe quibusdam, mollitia laboriosam praesentium dicta aliquid. Deleniti fugit in cumque
+         nemo
+         modi consequatur numquam beatae a, deserunt quisquam nostrum. Omnis necessitatibus saepe earum impedit
+         inventore
+         quos maxime ratione excepturi perferendis dicta ipsa, harum ullam molestiae modi quaerat tempora ipsam enim
+         beatae
+         numquam sint! Dolore quae obcaecati, rem minima libero aspernatur eaque, voluptas velit eum maxime esse harum
+         aut.
+      </p>
+      <!-- id 1)начинаться имя может только с буквы, цифры могут быть в имене, но не мервой; 2)не может быть двух с одним и тем же именем на одной странице, на следующей уже странце снова можно повторять имена -->
+      <p id="p1">Tell me! отступ Lorem, <mark>ЯКОРНАЯ ССЫЛКА с # Hello отступ</mark> ipsum dolor sit amet consectetur
+         adipisicing elit. Ut
+         ullam inventore,
+         velit voluptate aut
+         quae odio autem adipisci temporibus deleniti libero in aperiam accusamus totam beatae voluptatum magnam,
+         ratione
+         pariatur itaque architecto labore voluptates! Expedita, quas. Voluptatum omnis obcaecati repellendus temporibus
+         perspiciatis molestiae commodi, dolorum aspernatur iure quae quis, possimus dolore minima quas reprehenderit
+         quia
+         minus ut sed porro qui, modi accusantium corporis. Eum magni repudiandae illo molestias, neque tempore nihil
+         sint
+         laudantium soluta corrupti nostrum temporibus ipsa. Sed quo eum, vel ut necessitatibus sapiente illum atque
+         ipsum
+         pariatur delectus, a saepe quibusdam, mollitia laboriosam praesentium dicta aliquid. Deleniti fugit in cumque
+         nemo
+         modi consequatur numquam beatae a, deserunt quisquam nostrum. Omnis necessitatibus saepe earum impedit
+         inventore
+         quos maxime ratione excepturi perferendis dicta ipsa, harum ullam molestiae modi quaerat tempora ipsam enim
+         beatae
+         numquam sint! Dolore quae obcaecati, rem minima libero aspernatur eaque, voluptas velit eum maxime esse harum
+         aut.
+      </p>
+      <a href="#top">Вверх</a>
+   </main>
+</body>
+
+</html>
