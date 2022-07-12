@@ -70,3 +70,9 @@ p {
    font-family: 'Brygada 1918', serif;
    font-family: 'Rubik Moonrocks', cursive;
 }
+
+.weight {
+   font-weight: 700;
+   color: crimson;
+
+}
