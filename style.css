@@ -1,3 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&display=swap'); */
+/* @import Подключает шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,500&family=Rubik+Moonrocks&display=swap');
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+li {
+   list-style: none;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+
+img {
+   vertical-align: top;
+}
+
+html {
+   font-size: 16px;
+   /* по умолчанию */
+}
+
+body {
+   /* font-family: "Gilroy", sans-serif; */
+   line-height: 1;
+   /* Подключаем файл со шрифтом @import */
+   /* font-family: 'Brygada 1918', serif; */
+   /* По умолчанию Times New Roman шрифт  */
+   font-family: 'Brygada 1918', serif;
+}
+
+/* -------------------- */
+
 /* Селектор ТЕГА */
 p {
    color: rgb(38, 218, 18);
@@ -8,4 +64,9 @@ p {
 /* Селектор КЛАССА с точки начинаем */
 .text {
    color: brown;
+}
+
+.textspan {
+   font-family: 'Brygada 1918', serif;
+   font-family: 'Rubik Moonrocks', cursive;
 }
