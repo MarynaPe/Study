@@ -57,6 +57,8 @@ body {
 /* Селектор ТЕГА */
 p {
    color: rgb(38, 218, 18);
+   line-height: 150%;
+   /* указывается в px и в % */
 }
 
 /* Если в HTML документе уже применили в теги style для параграфа другой цвет, то это свойство не сработает, так как в коде следующим идет новый цвет */
@@ -70,6 +72,7 @@ p {
 .textspan {
    font-family: 'Brygada 1918', serif;
    font-family: 'Rubik Moonrocks', cursive;
+   text-shadow: 2px 1px 10px rgb(216, 28, 185);
 }
 
 .weight {
@@ -79,6 +82,9 @@ p {
 }
 
 a.link {
-
+   display: block;
+   text-align: center;
    text-decoration: underline;
+   text-shadow: 2px 1px 10px rgb(216, 28, 185);
+
 }
